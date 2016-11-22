@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+   <!-- player skin -->
+   <link rel="stylesheet" href="skin/functional.css">
+   <!-- site specific styling -->
+   <style>
+   body { font: 12px "Myriad Pro", "Lucida Grande", sans-serif; text-align: center; padding-top: 5%; }
+   .flowplayer { width: 80%; }
+   </style> 
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   <script src="flowplayer.min.js"></script>
+</head>
+<body>
+   <!-- the player -->
+   <div class="flowplayer" data-swf="flowplayer.swf" data-ratio="0.4167">
+      <video>
+         <!-- <source type="video/webm" src="https://stream.flowplayer.org/bauhaus.webm"> -->
+         <source type="video/mp4" src="http://streaming.interlake.net/fp;streaming/20120113173806/PIP/Niro;kia_niro_my17_product_film_short_version_master_9114_49012.mp4;stream;html5.mp5">
+
+           <track kind="subtitles" default srclang="en" label="English"
+               src="http://d12zt1n3pd4xhr.cloudfront.net/fp/subtitles-demo.vtt">
+      </video>
+   </div>
+
+</body>
